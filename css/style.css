@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 nav div a {
@@ -47,4 +50,7 @@ nav h2 {
 
 .active {
   text-decoration: underline rgb(211, 22, 22) double;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
