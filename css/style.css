@@ -74,4 +74,69 @@ h1 {
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  
+}
+
+.hero button:hover
+{
+   background-color:darkred;
+}
+
+
+.video-section
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:50px;
+   gap: 50px;
+}
+
+.video-text
+{
+  flex: 1;
+}
+
+.video-box
+{
+  flex: 1;
+}
+
+
+.video-box video 
+{
+  width: 100%;
+  border-radius:25px;
+}
+
+.video-text h2 
+{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.video-text p 
+{
+  font-size: 18px;
+  color: rgb(96, 86, 86);
+}
+
+.about  
+{
+  text-align: center;
+  background-color: aqua;
+  /*       tb   lr */
+  padding:60px 20px;
+  background-color: #dedbdb;
+}
+
+
+.about p
+{
+  max-width: 700px;
+  /* background-color: aqua; */
+  line-height: 1.6;
+  margin: auto;
 }
