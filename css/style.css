@@ -292,3 +292,63 @@ tbody tr {
   font-weight: bold;
   min-width: 20px;
 }
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(110deg, #000, #584c4c);
+}
+
+.auth-box {
+  background-color: white;
+  padding: 35px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0px 8px 25px black;
+}
+
+.auth-box h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  /*       tb  lr */
+  margin: 10px 0;
+  border: 1px solid rgb(143, 95, 95);
+  border-radius: 5pc;
+  outline: none;
+}
+.auth-box input:focus {
+  border-color: red;
+}
+
+.auth-box button {
+  background-color: red;
+  border: none;
+  color: white;
+  /* tb lr */
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.auth-box button:hover {
+  background-color: darkred;
+}
+
+.auth-box p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.auth-box a {
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+}
