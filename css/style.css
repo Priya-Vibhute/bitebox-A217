@@ -236,72 +236,59 @@ tbody tr {
   border-bottom: 1px solid #c37676;
 }
 
-
-.item 
-{
+.item {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.item img 
-{
+.item img {
   width: 70px;
   height: 70px;
   border-radius: 15px;
 }
 
-.remove 
-{
+.remove {
   background-color: red;
   border: none;
   color: white;
-         /* tb lr */
+  /* tb lr */
   padding: 8px 12px;
   cursor: pointer;
   border-radius: 10px;
 }
 
-
-.remove:hover 
-{
+.remove:hover {
   background-color: darkred;
 }
 
-
-.grand-total td 
-{
-   font-weight: bold;
-   font-size: 18px;
+.grand-total td {
+  font-weight: bold;
+  font-size: 18px;
 }
 
-
-.grand-total button
-{
+.grand-total button {
   background-color: red;
   border: none;
   color: white;
-         /* tb lr */
+  /* tb lr */
   padding: 8px 12px;
   cursor: pointer;
   border-radius: 10px;
 }
 
-.grand-total button:hover 
-{
+.grand-total button:hover {
   background-color: darkred;
 }
 
-.qty-box 
-{
+.qty-box {
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
 }
 
-.qty-box span 
-{
+.qty-box span {
   font-weight: bold;
   min-width: 20px;
 }
