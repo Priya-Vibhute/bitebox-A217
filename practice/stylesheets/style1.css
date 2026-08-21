@@ -46,3 +46,12 @@ h1 {
 p{
   font-size:50px;
 }
+
+
+.link
+{
+  display: inline-block;
+  background-color: aqua;
+  width: 1000px;
+  height: 200px;
+}

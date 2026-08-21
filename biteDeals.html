@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
-      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playwrite+GB+J+Guides:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- Header -->
     <header>
       <nav>
         <div>
-          <h2>Bite<span style="color: rgb(213, 54, 26)">Box</span></h2>
+          <img
+            src="images/logo.png"
+            alt="Logo"
+            width="100px"
+            title="BiteBox logo"
+          />
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="biteDeals.html" class="active">Bite Deals</a></li>
+            <li><a href="biteDeals.html">Bite Deals</a></li>
             <li>
               <a href="cart.html"
                 >Cart <i class="fa-solid fa-cart-shopping"></i
@@ -37,7 +43,84 @@
         </div>
       </nav>
     </header>
-    <section></section>
-    <footer></footer>
+
+    <!-- Deals Section -->
+
+    <section class="deals-page">
+      <!-- Hero box -->
+      <div class="deal-hero">
+        <h1>Bitedeals</h1>
+        <p>Save more on your favourite meals</p>
+      </div>
+
+      <!-- Combo section -->
+
+      <section class="combo-section">
+        
+        <h2 class="section-title">Today's Combo Offer</h2>
+
+        <!-- div.combo-container>div.combo-card -->
+         <div class="combo-container">
+         
+          <!-- Combo 1 -->
+          <div class="combo-card">
+               <img src="images/Burger.png" alt="">
+               <h3>Burger + Fries </h3>
+               <p>Perfect Snack Combo</p>
+               <h4><span>399</span>299</h4>
+               <button class="button">Order Now</button>
+          </div>
+
+           <!-- Combo 2 -->
+          <div class="combo-card">
+               <img src="images/Burger.png" alt="">
+               <h3>Burger + Fries </h3>
+               <p>Perfect Snack Combo</p>
+               <h4><span>399</span>299</h4>
+               <button class="button">Order Now</button>
+          </div>
+
+           <!-- Combo 3 -->
+          <div class="combo-card">
+               <img src="images/Burger.png" alt="">
+               <h3>Burger + Fries </h3>
+               <p>Perfect Snack Combo</p>
+               <h4><span>399</span>299</h4>
+               <button class="button">Order Now</button>
+          </div>
+          
+         </div>
+
+      </section>
+
+      <!-- Deals  -->
+       <h2 class="section-title">Special Day Offer</h2>
+
+       <div class="deals-container">
+            <!-- Card 1 -->
+           <div class="deal-card">
+            <h3>Friday Feast</h3>
+            <p>50% Off on Burgers</p>
+            <span>Use Code : FRI50</span>
+           </div>
+
+              <!-- Card 2 -->
+           <div class="deal-card">
+            <h3>Friday Feast</h3>
+            <p>50% Off on Burgers</p>
+            <span>Use Code : FRI50</span>
+           </div>
+
+               <!-- Card 3 -->
+           <div class="deal-card">
+            <h3>Friday Feast</h3>
+            <p>50% Off on Burgers</p>
+            <span>Use Code : FRI50</span>
+           </div>
+
+       </div>
+
+
+    </section>
   </body>
 </html>
