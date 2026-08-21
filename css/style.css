@@ -507,3 +507,71 @@ tbody tr {
   padding: 5px 10px;
   border-radius: 10px;
 }
+
+
+footer
+{
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+.footer-container
+{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+}
+
+footer h2,h3
+{
+  /* color: aqua; */
+  margin-bottom: 10px;
+}
+
+.footer-box span 
+{
+  color: red;
+}
+
+footer a 
+{
+  color: white;
+  text-decoration: none;
+}
+
+
+.footer-bottom
+{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top:  1px solid #333;
+    font-size: 14px;
+}
+
+.footer-box ul 
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.special-icons a 
+{
+  display: inline-block;
+  background-color: rgb(204, 77, 77);
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 10px;
+  
+}
+
+
+.special-icons a:hover
+{
+  color: white;
+  background-color: darkred;
+}
+

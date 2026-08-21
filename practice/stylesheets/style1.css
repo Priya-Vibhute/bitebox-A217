@@ -55,3 +55,27 @@ p{
   width: 1000px;
   height: 200px;
 }
+
+
+.input-box
+{
+  outline-color: red;
+  outline-width: 3px;
+  outline-style: solid;
+}
+
+.img-container
+{
+  width: 600px;
+  height: 200px;
+  /* overflow: hidden; */
+  border: 2px solid black;
+}
+
+.img-container img 
+{
+  width:20%;
+  height: 40%;
+  object-fit: contain;
+  
+}
